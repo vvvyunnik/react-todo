@@ -1,0 +1,35 @@
+@use '../../styles/variables.scss' as *;
+
+.todo-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid $light-color;
+    margin-top: 8px;
+    padding: 2px;
+
+    &.completed {
+        opacity: 0.5;
+        text-decoration: line-through;
+    }
+
+    .todo-item-checkbox {
+        width: 25px;
+        height: 25px;
+        background-color: #ffffff;
+        border-radius: 50%;
+        border: 1px solid $text-secondary-color;
+        appearance: none;
+        outline: none;
+        cursor: pointer;
+
+        &:checked {
+            background-color: $text-secondary-color;
+        }
+    }
+
+    .todo-item-text {
+        color: $text-primary-color
+    }
+}

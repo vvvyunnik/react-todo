@@ -1,0 +1,20 @@
+@use '../../styles/variables.scss' as *;
+
+.todos {
+    min-height: 300px;
+    min-width: 200px;
+    background-color: #ffffff;
+    border-radius: 8px;
+
+    .todo-list {
+        list-style: none;
+        padding: 5px 10px;
+    }
+
+    .no-item-text {
+        text-align: center;
+        padding-top: 50px;
+        font-weight: $bold-font;
+    }
+}
+

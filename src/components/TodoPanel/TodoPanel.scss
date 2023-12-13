@@ -1,0 +1,16 @@
+@use '../../styles/variables.scss' as *;
+
+.todo-panel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 10px;
+
+    .todo-active-count {
+        color: $text-primary-color;
+        font-size: 14px;
+        font-weight: $normal-font;
+        align-self: center;
+    }
+}

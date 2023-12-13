@@ -1,0 +1,18 @@
+@use '../../styles/variables.scss' as *;
+
+.todo-input {
+    color: $text-primary-color;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    display: block;
+    transition: all 0.4s;
+    height: 40px;
+    border: 1px solid $light-color;
+    padding: 0 10px;
+    box-sizing: border-box;
+
+    &:focus {
+        outline: none;
+    }
+}

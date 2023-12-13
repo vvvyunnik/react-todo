@@ -1,0 +1,17 @@
+@use '../../../styles/variables.scss' as *;
+
+.no-style-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: $normal-font;
+
+    &:hover {
+        text-decoration: underline;
+    }
+
+    &.selected {
+        color: $text-secondary-color;
+    }
+}
