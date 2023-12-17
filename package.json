@@ -1,5 +1,6 @@
 {
   "name": "react-to-do",
+  "homepage": "https://vvvyunnik.github.io/react-todo/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
