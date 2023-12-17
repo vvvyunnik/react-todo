@@ -1,0 +1,13 @@
+{
+  "short_name": "Todo",
+  "name": "React Todo App",
+  "icons": [
+    {
+      "src": "logo.png",
+      "type": "image/png",
+      "sizes": "any"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone"
+}
