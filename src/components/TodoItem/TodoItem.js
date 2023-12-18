@@ -27,7 +27,7 @@ function TodoItem({ id, text, completed }) {
         onChange={handleToggleComplete}
       />
       <span className="todo-item-text">{text}</span>
-      <Button onClick={handleDeleteTodo}>
+      <Button className="delete-btn" onClick={handleDeleteTodo}>
         <CrossIcon />
       </Button>
     </li>
