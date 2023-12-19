@@ -1,0 +1,208 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App matches snapshot 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div>
+        <div
+          class="todo-page"
+        >
+          <header
+            class="header"
+          >
+            <h1>
+              TODO
+            </h1>
+          </header>
+          <div
+            class="todo-container"
+          >
+            <input
+              class="todo-input"
+              placeholder="Add a new todo"
+              type="text"
+              value=""
+            />
+            <div
+              class="todo-area"
+            >
+              <div
+                class="todos"
+              >
+                <p
+                  class="no-item-text"
+                >
+                  No todos
+                </p>
+              </div>
+              <div
+                class="todo-panel"
+              >
+                <span
+                  class="todo-active-count"
+                >
+                  0
+                   items left
+                </span>
+                <div>
+                  <button
+                    class="no-style-btn selected"
+                    type="button"
+                  >
+                    ALL
+                  </button>
+                  <button
+                    class="no-style-btn "
+                    type="button"
+                  >
+                    COMPLETED
+                  </button>
+                  <button
+                    class="no-style-btn "
+                    type="button"
+                  >
+                    ACTIVE
+                  </button>
+                </div>
+                <button
+                  class="no-style-btn clear-btn"
+                  type="button"
+                >
+                  Clear completed
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div>
+      <div
+        class="todo-page"
+      >
+        <header
+          class="header"
+        >
+          <h1>
+            TODO
+          </h1>
+        </header>
+        <div
+          class="todo-container"
+        >
+          <input
+            class="todo-input"
+            placeholder="Add a new todo"
+            type="text"
+            value=""
+          />
+          <div
+            class="todo-area"
+          >
+            <div
+              class="todos"
+            >
+              <p
+                class="no-item-text"
+              >
+                No todos
+              </p>
+            </div>
+            <div
+              class="todo-panel"
+            >
+              <span
+                class="todo-active-count"
+              >
+                0
+                 items left
+              </span>
+              <div>
+                <button
+                  class="no-style-btn selected"
+                  type="button"
+                >
+                  ALL
+                </button>
+                <button
+                  class="no-style-btn "
+                  type="button"
+                >
+                  COMPLETED
+                </button>
+                <button
+                  class="no-style-btn "
+                  type="button"
+                >
+                  ACTIVE
+                </button>
+              </div>
+              <button
+                class="no-style-btn clear-btn"
+                type="button"
+              >
+                Clear completed
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
