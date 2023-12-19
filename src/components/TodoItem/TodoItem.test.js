@@ -26,10 +26,10 @@ describe("TodoItem", () => {
 
   test("matches snapshot", () => {
     const initialState = {
-        todo: {
-          items: [{ id: "1", text: "Sample Todo", completed: false }],
-        },
-      };
+      todo: {
+        items: [{ id: "1", text: "Sample Todo", completed: false }],
+      },
+    };
 
     const todoItemElement = renderTodoItemWithState(initialState);
     expect(todoItemElement).toMatchSnapshot();

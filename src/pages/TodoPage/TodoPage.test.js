@@ -10,7 +10,10 @@ describe("TodoPage", () => {
   afterEach(cleanup);
 
   test("matches snapshot", () => {
-    const store = mockStore({ todo: { items: [] }, filter: { filter: FilterType.None } });
+    const store = mockStore({
+      todo: { items: [] },
+      filter: { filter: FilterType.None },
+    });
     const todoElement = render(
       <Provider store={store}>
         <TodoPage />

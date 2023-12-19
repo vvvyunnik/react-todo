@@ -8,7 +8,10 @@ const mockStore = configureStore([]);
 
 describe("App", () => {
   test("matches snapshot", () => {
-    const store = mockStore({ todo: { items: [] }, filter: { filter: FilterType.None } });
+    const store = mockStore({
+      todo: { items: [] },
+      filter: { filter: FilterType.None },
+    });
     const appElement = render(
       <Provider store={store}>
         <App />

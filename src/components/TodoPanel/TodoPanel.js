@@ -17,7 +17,9 @@ function TodoPanel() {
     <div className="todo-panel">
       <span className="todo-active-count">{activeTodosCount} items left</span>
       <TodoFilterPanel />
-      <Button className="clear-btn" onClick={handleClearCompleted}>Clear completed</Button>
+      <Button className="clear-btn" onClick={handleClearCompleted}>
+        Clear completed
+      </Button>
     </div>
   );
 }

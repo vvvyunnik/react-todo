@@ -45,6 +45,6 @@ describe("TodoInput", () => {
 
     expect(dispatchMock).toHaveBeenCalledTimes(2);
     expect(addTodo).toHaveBeenCalledWith("New Todo");
-    expect(setFilter).toHaveBeenCalledWith(FilterType.None); // Corrected this line
+    expect(setFilter).toHaveBeenCalledWith(FilterType.None);
   });
 });

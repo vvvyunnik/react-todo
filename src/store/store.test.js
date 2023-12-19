@@ -1,9 +1,9 @@
-import { configureStore } from '@reduxjs/toolkit';
-import todoReducer from './todoSlice';
-import filterReducer from './filterSlice';
+import { configureStore } from "@reduxjs/toolkit";
+import todoReducer from "./todoSlice";
+import filterReducer from "./filterSlice";
 
-describe('store', () => {
-  it('should initialize with correct reducers', () => {
+describe("store", () => {
+  it("should initialize with correct reducers", () => {
     const store = configureStore({
       reducer: {
         todo: todoReducer,

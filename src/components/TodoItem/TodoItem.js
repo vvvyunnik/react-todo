@@ -32,7 +32,7 @@ function TodoItem({ id, text, completed }) {
       </Button>
     </li>
   );
-};
+}
 
 TodoItem.propTypes = {
   id: PropTypes.string.isRequired,
