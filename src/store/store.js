@@ -1,6 +1,5 @@
 import { configureStore } from "@reduxjs/toolkit";
-import todoReducer from "./todoSlice";
-import filterReducer from "./filterSlice";
+import reducer from './reducers';
 import { getTodos, saveTodos } from "./todoRepository";
 
 const preloadedState = {
@@ -8,10 +7,7 @@ const preloadedState = {
 };
 
 const store = configureStore({
-  reducer: {
-    todo: todoReducer,
-    filter: filterReducer,
-  },
+  reducer,
   preloadedState,
 });
 
